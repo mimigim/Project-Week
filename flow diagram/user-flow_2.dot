@@ -5,15 +5,16 @@ graph graphname {
   d [label="{<f0> name|<f1> email|<f2> username|<f3> password}" shape=record]
   e [label="confirmation page"]
   f [label="{<f0> email or username|<f1> password}" shape=record]
-  g [label="profile"]
-  h [label="list of tutorials"]
-  i [label="{<f0> name|<f1> achievement status|<f2> tutorial progress}" shape=record]
+  g [label="library"]
+  h [label="start tutorial"]
+  i [label="{<f0> tutorials|<f1> name|<f2> description|<f3> difficulty|<f4> start button}" shape=record]
   j [label="working on tutorial"]
-  k [label="hints"]
+  k [label="{<f0> outline|<f1> hints}" shape=record]
   l [label="log out"]
   m [label="completed tutorial"]
   n [label="congrats"]
   o [label="back"]
+  p [label="{<f0> profile|<f1> name|<f2> achievement status|<f3> tutorial progress}" shape=record]
 
 
   a -- b;
@@ -21,6 +22,7 @@ graph graphname {
   b -- d -- e;
   e -- g;
   f -- g;
+  g -- p;
   g -- i;
   i -- h;
   h -- j;
@@ -29,6 +31,6 @@ graph graphname {
   j -- m;
   m -- n;
   n -- l;
-  j -- o;
+  g -- o;
   n -- o;
 }

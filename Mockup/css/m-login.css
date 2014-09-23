@@ -14,9 +14,13 @@
   padding: 1rem;
 }
 
-.form__input--button {
-
-}
+input[type=submit] {
+    padding:5rem;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
 
 main {
   background-color: #dcdcdc;

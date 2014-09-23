@@ -1,0 +1,32 @@
+.form__input {
+  display: block;
+  width: 80%;
+  margin: 0.5rem auto;
+  padding: 0.3rem;
+}
+
+.form__heading {
+  padding-bottom: 0.5rem;
+}
+
+.form__group {
+  text-align: center;
+  padding: 1rem;
+}
+
+.form__input--button {
+
+}
+
+main {
+  background-color: #dcdcdc;
+  width: 40%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 10rem 0 5rem;
+  font-size: 2rem;
+}
+

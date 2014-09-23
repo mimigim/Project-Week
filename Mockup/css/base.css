@@ -69,6 +69,10 @@ Our Base-Colors, UI and HTML Base Styling
   color: #DCDCDC;
 }
 
+.font-shadow {
+  text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
 html, body {
   font-family: 'Muli', sans-serif;
   line-height: 1.7rem;
@@ -78,9 +82,15 @@ h1 {
   font-family: 'Ovo', serif;
   font-size: 4rem;
   font-weight: bolder;
-  color: #EE4925;
+  color: #FFF;
   padding-top: 3rem;
   padding-bottom: 1.7rem;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+  color: #FFF;
 }
 
 p {
@@ -101,8 +111,7 @@ button:focus, button:active {
 
 button:hover {
   background-color: #D7B7A2;
-  border: 1px solid white;
-  cursor: hand;
+  cursor: pointer;
 }
 
 
